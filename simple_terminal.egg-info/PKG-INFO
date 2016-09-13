@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: simple-terminal
-Version: 0.1
+Version: 0.2
 Summary: A simple way to run terminal commands within a Python script.
 Home-page: http://github.com/seanchon/simple_terminal/
 Author: Sean Chon
