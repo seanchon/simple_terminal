@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: simple-terminal
+Version: 0.1
+Summary: A simple way to run terminal commands within a Python script.
+Home-page: http://github.com/seanchon/simple_terminal
+Author: Sean Chon
+Author-email: s@seanchon.com
+License: MIT
+Description: UNKNOWN
+Keywords: linux terminal cli
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
