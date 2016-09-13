@@ -28,7 +28,7 @@ setup(
     long_description=long_description,
 
     # The project's main homepage.
-    url='http://github.com/seanchon/simple_terminal',
+    url='http://github.com/seanchon/simple_terminal/',
 
     # Author details
     author='Sean Chon',

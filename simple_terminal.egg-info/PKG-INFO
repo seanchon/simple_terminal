@@ -2,11 +2,32 @@ Metadata-Version: 1.1
 Name: simple-terminal
 Version: 0.1
 Summary: A simple way to run terminal commands within a Python script.
-Home-page: http://github.com/seanchon/simple_terminal
+Home-page: http://github.com/seanchon/simple_terminal/
 Author: Sean Chon
 Author-email: s@seanchon.com
 License: MIT
-Description: UNKNOWN
+Description: # simple_terminal
+        A simple way to run terminal commands within a Python script.
+        
+        
+        ## Code Example
+        ```python
+        from simple_terminal import Terminal
+        
+        terminal = Terminal()
+        
+        terminal.command('ls')
+        ```
+        
+        ## Motivation
+        This library exists to run terminal commands from within a script to create easier automation of commonly performed tasks.
+        
+        ## Installation
+        pip install simple_terminal
+        
+        ## License
+        MIT
+        
 Keywords: linux terminal cli
 Platform: UNKNOWN
 Classifier: Development Status :: 3 - Alpha
