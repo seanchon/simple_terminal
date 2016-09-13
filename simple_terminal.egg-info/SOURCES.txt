@@ -1,4 +1,4 @@
-README.rst
+README.md
 simple_terminal/__init__.py
 simple_terminal.egg-info/PKG-INFO
 simple_terminal.egg-info/SOURCES.txt
