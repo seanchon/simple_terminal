@@ -8,4 +8,4 @@ class Terminal(object):
         output = proc.stdout.readlines()
         output = map(lambda s: s.strip(), output)
         proc.kill()
-        return output
+        return list(output)
