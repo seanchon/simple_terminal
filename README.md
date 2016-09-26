@@ -8,7 +8,7 @@ from simple_terminal import Terminal
 
 terminal = Terminal()
 
-terminal.command('ls')
+results = terminal.command('ls')
 ```
 
 ## Motivation
