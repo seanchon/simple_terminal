@@ -1,4 +1,4 @@
-https://travis-ci.org/seanchon/simple_terminal.svg?branch=master
+![alt tag]https://travis-ci.org/seanchon/simple_terminal.svg?branch=master
 
 # simple_terminal
 A simple way to run terminal commands within a Python script.
