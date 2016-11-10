@@ -26,6 +26,7 @@ class ChangeDirectoryTestCase(unittest.TestCase):
         self.assertEqual(self.home_directory + '/temp/temp', self.t.command('cd temp/temp')[0])
         self.assertEqual(self.home_directory, self.t.command('cd ~')[0])
         self.assertEqual(self.home_directory + '/temp/temp', self.t.command('cd ~/temp/temp')[0])
+        self.assertEqual(self.home_directory, self.t.command('cd ../..')[0])
 
     def test_change_to_relative_directory(self):
         self.t.command('mkdir -p temp/temp')
