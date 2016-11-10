@@ -8,7 +8,7 @@ class ChangeDirectoryTestCase(unittest.TestCase):
     def setUp(self):
         self.t = Terminal()
         os.chdir(os.path.expanduser('~'))
-        self.home_directory = str(os.getcwd())
+        self.home_directory = os.getcwd()
 
     def test_current_working_directory(self):
         self.assertEqual(self.t.command('pwd')[0], self.home_directory)

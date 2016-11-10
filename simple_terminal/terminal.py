@@ -12,7 +12,7 @@ class Terminal(object):
         else:
             proc = subprocess.Popen([command], shell=True, stdout=subprocess.PIPE)
             output = proc.stdout.readlines()
-            output = map(lambda s: s.strip(), output)
+            output = [x.decode('utf8').strip() for x in output]
             proc.kill()
             return list(output)
 
