@@ -3,6 +3,11 @@ import subprocess
 
 
 class Terminal(object):
+    def __enter__(self, *args, **kwargs):
+        return self
+
+    def __exit__(self, *args, **kwargs):
+        pass
 
     def command(self, command):
         if command.split(' ')[0] == 'cd':
