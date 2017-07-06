@@ -15,10 +15,10 @@ class Terminal(object):
             output = None
             return self.command('pwd')
         else:
-            proc = subprocess.Popen([command], shell=True, stdout=subprocess.PIPE)
+            proc = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
             output = proc.stdout.readlines()
             output = [x.decode('utf8').strip() for x in output]
-            proc.kill()
+            proc.wait()
             return list(output)
 
     def chdir(self, directory):
