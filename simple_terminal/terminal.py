@@ -1,5 +1,4 @@
 import os
-import subprocess
 
 
 class Terminal(object):
@@ -15,10 +14,9 @@ class Terminal(object):
             output = None
             return self.command('pwd')
         else:
-            proc = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
-            output = proc.stdout.readlines()
-            output = [x.decode('utf8').strip() for x in output]
-            proc.wait()
+            proc = os.popen(command)
+            output = [x for x in proc.read().split('\n') if x]
+            proc.close()
             return list(output)
 
     def chdir(self, directory):
