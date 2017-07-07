@@ -1,4 +1,5 @@
-![alt tag](https://travis-ci.org/seanchon/simple_terminal.svg?branch=master)
+[<img src="https://travis-ci.org/seanchon/simple_terminal.svg?branch=master">](https://travis-ci.org/seanchon/simple_terminal)
+[<img src="https://img.shields.io/pypi/pyversions/simple-terminal.svg">](https://pypi.python.org/pypi/simple_terminal)
 
 # simple_terminal
 A simple way to run terminal commands within a Python script.
