@@ -14,6 +14,16 @@ terminal = Terminal()
 results = terminal.command('ls')
 ```
 
+or
+
+```python
+
+from simple_terminal import Terminal
+
+with Terminal() as terminal:
+  results = terminal.command('ls')
+```
+
 ## Motivation
 This library exists to run terminal commands from within a script to create easier automation of commonly performed tasks.
 
