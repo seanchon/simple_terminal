@@ -25,7 +25,7 @@ with Terminal() as terminal:
 ```
 
 ## Motivation
-This library exists to run terminal commands from within a script to create easier automation of commonly performed tasks.
+This library exists to run terminal commands from within a script and capture stdout to create easier automation of commonly performed tasks.
 
 ## Installation
 pip install simple_terminal
